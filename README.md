@@ -84,22 +84,31 @@ Sales Pattern by State
 
 Conclusions & Recommendations
 Key Findings
--- Regional Demand Insights
-São Paulo (SP) had the highest monthly demand and sales throughout the timeline.
+ --1. Regional Demand Insights
+- São Paulo (SP) dominated demand with over 43,000 delivered orders, accounting for 28.3% of total delivered orders nationwide.
 
-Minas Gerais (MG) and Rio de Janeiro (RJ) consistently followed SP in both demand volume and sales value.
+- Minas Gerais (MG) and Rio de Janeiro (RJ) followed with approximately 15,000 orders (9.8%) and 12,000 orders (7.9%) respectively.
 
-States like Roraima (RR) and Amapá (AP) showed minimal demand, indicating limited market reach or infrastructure.
+ -States like Roraima (RR) and Amapá (AP) had fewer than 300 total orders, showing <0.2% contribution to national demand.
 
--- Demand Seasonality
-Noticeable peaks in Q4, suggesting strong demand during holiday months.
+-- 2. Sales & Revenue Breakdown
+ -Total sales across all regions exceeded BRL 17 million.
 
-Sales dips in certain months may reflect national holidays, logistics, or campaign gaps.
+-SP alone contributed over BRL 5.5 million (~32%) in sales.
 
--- Freight Patterns
-Higher freight values were often associated with remote or lower-demand states.
+-The average order value was BRL 113.24, and median freight cost per order was BRL 16.68.
 
-Freight costs were significant in the North and Northeast regions despite lower order volumes.
+-- 3. Seasonality in Demand
+- Strong seasonal demand observed in November and December (Black Friday & Christmas).
+
+-November 2017 saw a 24% increase in order volume compared to October.
+
+-Demand dropped by nearly 15% in January 2018, indicating post-holiday slowdowns.
+
+-- 4. Freight & Logistics Patterns
+- States in the North and Northeast regions (e.g., Amazonas, Pará) had freight costs up to 3x higher than the national average.
+
+-Freight costs often constituted 15–30% of total sales value in remote regions.
 
  What Could Be Done Next (Future Work)
  Forecast demand by state using time series models (ARIMA, Prophet)
