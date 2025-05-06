@@ -14,20 +14,21 @@ Tableau: Interactive dashboard and story presentation
 Dataset: Olist E-commerce Dataset
 Project Structure
  olist-regional-demand/
-│
-├── sql/
+ 
+sql/
 │   └── regional_demand_query.sql     # SQL query for aggregation
-│
-├── data/
+
+ data/
 │   └── regional_demand.csv           # Output from SQL
 │   └── cleaned_regional_demand.csv   # Cleaned CSV for Tableau & EDA
-│
-├── python/
+
+ python/
 │   └── regional_demand_analysis.py   # Python script for EDA & charts
-│
-├── tableau/
+
+tableau/
 │   └── dashboard.twb                 # Tableau dashboard file
-│
+
+
 └── README.md                         # Project documentation
  Objective
  
